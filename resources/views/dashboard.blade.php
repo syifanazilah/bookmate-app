@@ -9,7 +9,7 @@ Dashboard
         <div class="box">
             <div class="box-header with-border">
             <div class="row">
-          <div class="col-12 col-sm-6 col-md-3">
+          <!-- <div class="col-12 col-sm-6 col-md-3">
             <div class="info-box">
               <span class="info-box-icon bg-info elevation-1"><i class="fas fa-users"></i></span>
 
@@ -20,11 +20,9 @@ Dashboard
                   <small>akun</small>
                 </span>
               </div>
-              <!-- /.info-box-content -->
             </div>
-            <!-- /.info-box -->
-          </div>
-          <!-- /.col -->
+          </div> -->
+
           <div class="col-12 col-sm-6 col-md-3">
             <div class="info-box mb-3">
               <span class="info-box-icon bg-danger elevation-1"><i class="fas fa-book-open"></i></span>
@@ -36,16 +34,10 @@ Dashboard
                     <small>buku</small>
                 </span>
               </div>
-              <!-- /.info-box-content -->
             </div>
-            <!-- /.info-box -->
           </div>
-          <!-- /.col -->
 
-          <!-- fix for small devices only -->
-          <div class="clearfix hidden-md-up"></div>
-
-          <div class="col-12 col-sm-6 col-md-3">
+          <!-- <div class="col-12 col-sm-6 col-md-3">
             <div class="info-box mb-3">
               <span class="info-box-icon bg-success elevation-1"><i class="fas fas fa-cog"></i></span>
 
@@ -56,12 +48,10 @@ Dashboard
                     <small>orang</small>
                 </span>
               </div>
-              <!-- /.info-box-content -->
             </div>
-            <!-- /.info-box -->
-          </div>
-          <!-- /.col -->
-          <div class="col-12 col-sm-6 col-md-3">
+          </div> -->
+
+          <!-- <div class="col-12 col-sm-6 col-md-3">
             <div class="info-box mb-3">
               <span class="info-box-icon bg-warning elevation-1"><i class="fas fa-edit"></i></span>
 
@@ -69,12 +59,10 @@ Dashboard
                 <span class="info-box-text">Laporan</span>
                 <span class="info-box-number">98</span>
               </div>
-              <!-- /.info-box-content -->
             </div>
-            <!-- /.info-box -->
-          </div>
-          <!-- /.col -->
+          </div> -->
         </div>
+
             </div>
             <div class="box-body">
 <div class="content-header">

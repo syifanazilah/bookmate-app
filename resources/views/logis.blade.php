@@ -4,7 +4,7 @@
 <head>
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
-  <title>Index - BookmateApp</title>
+  <title>BookMate</title>
   <meta content="" name="description">
   <meta content="" name="keywords">
 
@@ -27,14 +27,6 @@
 
   <!-- Main CSS File -->
   <link href="{{asset('logis/assets/css/main.css')}}" rel="stylesheet">
-
-  <!-- =======================================================
-  * Template Name: Logis
-  * Template URL: https://bootstrapmade.com/logis-bootstrap-logistics-website-template/
-  * Updated: Jun 29 2024 with Bootstrap v5.3.3
-  * Author: BootstrapMade.com
-  * License: https://bootstrapmade.com/license/
-  ======================================================== -->
 </head>
 
 <body class="index-page">
@@ -305,7 +297,7 @@
 
         <div class="row gy-4">
 
-          <div class="col-lg-4" data-aos="zoom-in" data-aos-delay="100">
+          <!-- <div class="col-lg-4" data-aos="zoom-in" data-aos-delay="100">
             <div class="pricing-item">
               <h3>Free Plan</h3>
               <h4><sup>$</sup>0<span> / month</span></h4>
@@ -318,9 +310,10 @@
               </ul>
               <a href="#" class="buy-btn">Buy Now</a>
             </div>
-          </div><!-- End Pricing Item -->
+          </div> -->
+          <!-- End Pricing Item -->
 
-          <div class="col-lg-4" data-aos="zoom-in" data-aos-delay="200">
+          <!-- <div class="col-lg-4" data-aos="zoom-in" data-aos-delay="200">
             <div class="pricing-item featured">
               <h3>Business Plan</h3>
               <h4><sup>$</sup>29<span> / month</span></h4>
@@ -333,9 +326,10 @@
               </ul>
               <a href="#" class="buy-btn">Buy Now</a>
             </div>
-          </div><!-- End Pricing Item -->
+          </div> -->
+          <!-- End Pricing Item -->
 
-          <div class="col-lg-4" data-aos="zoom-in" data-aos-delay="300">
+          <!-- <div class="col-lg-4" data-aos="zoom-in" data-aos-delay="300">
             <div class="pricing-item">
               <h3>Developer Plan</h3>
               <h4><sup>$</sup>49<span> / month</span></h4>
@@ -348,13 +342,15 @@
               </ul>
               <a href="#" class="buy-btn">Buy Now</a>
             </div>
-          </div><!-- End Pricing Item -->
+          </div> -->
+          <!-- End Pricing Item -->
 
         </div>
 
       </div>
 
-    </section><!-- /Pricing Section -->
+    </section>
+    <!-- /Pricing Section -->
 
     <!-- Testimonials Section -->
     <section id="testimonials" class="testimonials section dark-background">

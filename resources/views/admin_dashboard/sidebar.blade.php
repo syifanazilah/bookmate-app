@@ -4,7 +4,7 @@
          with font-awesome or any other icon font library -->
     
          {{-- MANAJEMEN PENGGUNA --}}
-         <li class="nav-item menu-close">
+         <!-- <li class="nav-item menu-close">
           <a href="#" class="nav-link active">
             <i class="nav-icon fas fa-user-cog"></i>
             <p>
@@ -20,7 +20,7 @@
               </a>
             </li>
           </ul>
-        </li>
+        </li> -->
 
 
         {{-- BUKU TERSEDIA --}}
@@ -34,12 +34,12 @@
           </a>
           <ul class="nav nav-treeview">
             <li class="nav-item">
-              <a href="./index.html" class="nav-link">
+              <a href="{{ route('buku.index') }}" class="nav-link">
                 <i class="fas fa-shapes"></i>
-                <p>&nbsp;Buku Pengembangan Diri</p>
+                <p>&nbsp;Daftar Buku</p>
               </a>
             </li>
-            <li class="nav-item">
+            <!-- <li class="nav-item">
               <a href="./index2.html" class="nav-link">
                 <i class="fas fa-hat-wizard"></i>
                 <p>&nbsp;Buku Novel</p>
@@ -50,13 +50,13 @@
                 <i class="fas fa-graduation-cap"></i>
                 <p>&nbsp;Buku Pelajaran</p>
               </a>
-            </li>
+            </li> -->
           </ul>
         </li>
 
 
         {{-- STATUS PEMINJAMAN --}}
-        <li class="nav-item menu-close">
+        <!-- <li class="nav-item menu-close">
           <a href="#" class="nav-link active">
             <i class="fas fa-cog"></i>
             <p>
@@ -78,11 +78,11 @@
               </a>
             </li>
           </ul>
-        </li>
+        </li> -->
 
 
         {{-- LAPORAN --}}
-        <li class="nav-item menu-close">
+        <!-- <li class="nav-item menu-close">
           <a href="#" class="nav-link active">
             <i class="fas fa-edit"></i>
             <p>
@@ -104,7 +104,7 @@
               </a>
             </li>
           </ul>
-        </li>
+        </li> -->
 
   </ul><p>
   <form action="{{route('logout')}}" method="post">

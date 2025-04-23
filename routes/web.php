@@ -1,6 +1,7 @@
 <?php
 
 use App\Http\Controllers\ProfileController;
+use App\Http\Controllers\BukuController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -30,6 +31,9 @@ Route::middleware('auth')->group(function () {
     Route::delete('/profile', [ProfileController::class, 'destroy'])->name('profile.destroy');
 
     Route::get('/user', [ProfileController::class, 'index'])->name('user.index');
+
+    // Buku
+    Route::resource('/buku', BukuController::class);
 });
 
 require __DIR__.'/auth.php';
